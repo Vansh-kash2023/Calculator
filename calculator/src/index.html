@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Adding Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&family=Playwrite+SK:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Linking stylesheet -->
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <!-- Google API for Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="body flex justify-center items-center h-[100vh]">
+        <div
+            class="calculator w-[90vw] sm:w-[70vw] md:w-[50vw] lg:w-[25%] h-auto border border-black flex flex-col gap-2 bg-yellow-100 px-5 py-5 rounded-2xl">
+            <div
+                class="display roboto-medium w-[100%] h-20 border border-black px-4 py-2 text-6xl flex justify-end items-center overflow-clip">
+                0
+            </div>
+            <div class="buttons grid grid-cols-3 gap-2 mt-4">
+                <div id="1"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    1
+                </div>
+                <div id="2"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    2
+                </div>
+                <div id="add" class="button border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                </div>
+                <div id="3"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    3
+                </div>
+                <div id="4"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    4
+                </div>
+                <div id="sub" class="button border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    <span class="material-symbols-outlined">
+                        remove
+                    </span>
+                </div>
+                <div id="5"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    5
+                </div>
+                <div id="6"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    6
+                </div>
+                <div id="mul" class="button border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+                <div id="7"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    7
+                </div>
+                <div id="8"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    8
+                </div>
+                <div id="division"
+                    class="button border flex items-center justify-center border-slate-950 px-5 py-2 text-xl font-bold">
+                    /
+                </div>
+                <div id="9"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    9
+                </div>
+                <div id="0"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    0
+                </div>
+                <div id="result"
+                    class="button border flex items-center justify-center border-slate-950 px-5 py-2 text-xl row-span-2">
+                    <span class="material-symbols-outlined">
+                        equal
+                    </span>
+                </div>
+                <div id="back"
+                    class="button border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    <span class="material-symbols-outlined">
+                        chevron_backward
+                    </span>
+                </div>
+                <div id="clear"
+                    class="button roboto-medium border flex items-center justify-center border-slate-950 px-5 py-2 text-xl">
+                    AC
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
