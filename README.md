@@ -20,7 +20,7 @@ You can see a live demo of the calculator here: https://www.linkedin.com/posts/v
    git clone https://github.com/Vansh-kash2023/Calculator.git
    ```
 2. Navigate to the project directory:
-  ```bash
-  cd Calculator
-  ```
+   ```bash
+   cd Calculator
+   ```
 3. Open index.html in your browser to run the app.
